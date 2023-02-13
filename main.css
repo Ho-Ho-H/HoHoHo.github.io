@@ -1,0 +1,40 @@
+.highlight {color:yellow;}
+.bigtext {font-size: 24px;}
+.bluebackground {background-color: blue;}
+.redbutton {background-color: red;}
+.greenbox {background-color: yellow;}
+.container1 {
+display: flex; /* Элемент становится flex-контейнером */
+justify-content: space-between; /*Элементы располагаются от краёв до центра */
+align-items: center; /* Элементы выравниваются по центру по вертикали */
+height: 100px; /* Высота контейнера */
+width: 100%; /* Ширина контейнера */
+background: #ddd; /* Цвет фона контейнера */
+}
+.item {
+    flex: 1; /*Элементы будут занимать одинаковое количество места */
+    text-align: center; /* Текст в элементах будет выровнен по центру */
+    line-height: 100px; /* Высота строки равна высоте контейнера */
+}
+.container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+}
+.box1 {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border: 1px solid blue;
+    left: 50px;
+    top: 50px;
+}
+.box2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    right: 50px;
+    bottom: 50px;
+}
